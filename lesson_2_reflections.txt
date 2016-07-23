@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, a .git file is made to keep track of all the version changes throughout the repository's history.
+This needs to be done to track changes.
