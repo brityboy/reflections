@@ -12,3 +12,22 @@ shows the entire path while the staging area shows both the tracked files and th
 How can you use the staging area to make sure you have one commit per logical change?
 
 use git stage to see what changed - although - oops, i forgot to do this last time
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help when there are divergences in the development direction. They help by sorting the commit history
+by development direction. Branches help by acting as categories pre development direction to organize code under.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help visualize the branch structure by showing the parent-commit relationship histories through lines
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together combines the code in one branch and the other. We represent it in the diagram
+as two paths that have converged to show that there is a time in history when the code was developed separately
+as two different branches prior to merging
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro of automatic merging - to fix code that obviously needs mergine. Con is that it takes effort to track it.
