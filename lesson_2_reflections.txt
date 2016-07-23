@@ -2,3 +2,9 @@ What happens when you initialize a repository? Why do you need to do it?
 
 When a repository is initialized, a .git file is made to keep track of all the version changes throughout the repository's history.
 This needs to be done to track changes.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is different from the working directory because the working directory is the path that contains all files
+while the staging area only contains the files that are to be tracked. the values are different because working directory
+shows the entire path while the staging area shows both the tracked files and the working directory
